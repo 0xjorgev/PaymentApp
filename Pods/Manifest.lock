@@ -1,0 +1,26 @@
+PODS:
+  - IQKeyboardManager (6.1.1)
+  - PureLayout (3.1.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - PureLayout
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - PureLayout
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 6b6656ed5d3e309ab2a5f17931aa069a91d12c96
+
+COCOAPODS: 1.5.3

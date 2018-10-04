@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FEA6A1657F505C4C3365E4 /* Pods_MercadopagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23E287A8E891D4DEF118B34 /* Pods_MercadopagoTests.framework */; };
+		1095F5698B4786A0514A36DB /* Pods_Mercadopago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDF640454BC672EEA1906F /* Pods_Mercadopago.framework */; };
+		1816CEB521630F660003A94E /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816CEB421630F660003A94E /* CardTableViewCell.m */; };
+		1816CEB721638D220003A94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816CEB621638D220003A94E /* Assets.xcassets */; };
+		1816CEBA2163B4430003A94E /* ComposedTRX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816CEB92163B4430003A94E /* ComposedTRX.m */; };
+		1816CEBE2163BA810003A94E /* CardSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816CEBD2163BA810003A94E /* CardSelectionTableViewController.m */; };
+		1816CEBF2163BA810003A94E /* CardSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816CEBD2163BA810003A94E /* CardSelectionTableViewController.m */; };
+		184B18CF215E7F31003238ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18CE215E7F31003238ED /* AppDelegate.m */; };
+		184B18D2215E7F31003238ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18D1215E7F31003238ED /* ViewController.m */; };
+		184B18DA215E7F32003238ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184B18D8215E7F32003238ED /* LaunchScreen.storyboard */; };
+		184B18DD215E7F32003238ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18DC215E7F32003238ED /* main.m */; };
+		184B18E7215E7F32003238ED /* MercadopagoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18E6215E7F32003238ED /* MercadopagoTests.m */; };
+		184B18F3215E82C6003238ED /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18F2215E82C6003238ED /* Service.m */; };
+		184B18F9215F23C7003238ED /* CardIssuer.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18F8215F23C7003238ED /* CardIssuer.m */; };
+		184B18FA215F23C7003238ED /* CardIssuer.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18F8215F23C7003238ED /* CardIssuer.m */; };
+		184B18FD215F2461003238ED /* PaymentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18FC215F2461003238ED /* PaymentMethod.m */; };
+		184B18FE215F2461003238ED /* PaymentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B18FC215F2461003238ED /* PaymentMethod.m */; };
+		184B1901215F25CA003238ED /* PaymentSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B1900215F25CA003238ED /* PaymentSetting.m */; };
+		184B1902215F25CA003238ED /* PaymentSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B1900215F25CA003238ED /* PaymentSetting.m */; };
+		184B1905215F28E2003238ED /* Bin.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B1904215F28E2003238ED /* Bin.m */; };
+		184B1906215F28E2003238ED /* Bin.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B1904215F28E2003238ED /* Bin.m */; };
+		184B1909215F28FD003238ED /* SecurityCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B1908215F28FD003238ED /* SecurityCode.m */; };
+		184B190A215F28FD003238ED /* SecurityCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B1908215F28FD003238ED /* SecurityCode.m */; };
+		184B190D215F2975003238ED /* CardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B190C215F2975003238ED /* CardNumber.m */; };
+		184B190E215F2975003238ED /* CardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B190C215F2975003238ED /* CardNumber.m */; };
+		184B19112161A476003238ED /* Installments.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B19102161A476003238ED /* Installments.m */; };
+		184B19122161A476003238ED /* Installments.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B19102161A476003238ED /* Installments.m */; };
+		184B19152161A5BA003238ED /* PayerCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B19142161A5BA003238ED /* PayerCost.m */; };
+		184B19162161A5BA003238ED /* PayerCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B19142161A5BA003238ED /* PayerCost.m */; };
+		184B191921626417003238ED /* HomeViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B191821626417003238ED /* HomeViewControllerTableViewController.m */; };
+		184B191A21626417003238ED /* HomeViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B191821626417003238ED /* HomeViewControllerTableViewController.m */; };
+		184B191E216265E1003238ED /* TitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B191D216265E1003238ED /* TitleTableViewCell.m */; };
+		184B191F216265E1003238ED /* TitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B191D216265E1003238ED /* TitleTableViewCell.m */; };
+		184B192221626EF0003238ED /* PaymentAmountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B192121626EF0003238ED /* PaymentAmountTableViewCell.m */; };
+		184B192321626EF0003238ED /* PaymentAmountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B192121626EF0003238ED /* PaymentAmountTableViewCell.m */; };
+		184B19262162B1A4003238ED /* ContinueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B19252162B1A4003238ED /* ContinueTableViewCell.m */; };
+		184B19272162B1A4003238ED /* ContinueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B19252162B1A4003238ED /* ContinueTableViewCell.m */; };
+		184B192B216307AE003238ED /* SelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184B192A216307AE003238ED /* SelectionTableViewController.m */; };
+		18A70DFA2163CD380045600C /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70DF92163CD380045600C /* TableViewHeaderView.m */; };
+		18A70DFD2163E0640045600C /* CardIssuerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70DFC2163E0640045600C /* CardIssuerTableViewController.m */; };
+		18A70E002163ED370045600C /* RecommendedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70DFF2163ED370045600C /* RecommendedTableViewController.m */; };
+		18A70E032164598C0045600C /* RecommendedHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70E022164598C0045600C /* RecommendedHeaderView.m */; };
+		18A70E062164C6050045600C /* RecommendedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70E052164C6050045600C /* RecommendedTableViewCell.m */; };
+		18A70E0C21657BD40045600C /* NSNumber+StringFromNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70E0B21657BD40045600C /* NSNumber+StringFromNumber.m */; };
+		18A70E0F216695A40045600C /* NSString+NumberFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70E0E216695A40045600C /* NSString+NumberFromString.m */; };
+		18A70E122166AF890045600C /* UIViewController+AddNavigationLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A70E112166AF890045600C /* UIViewController+AddNavigationLogo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184B18E3215E7F32003238ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184B18C2215E7F31003238ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184B18C9215E7F31003238ED;
+			remoteInfo = Mercadopago;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11CDF640454BC672EEA1906F /* Pods_Mercadopago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercadopago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816CEB321630F660003A94E /* CardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTableViewCell.h; sourceTree = "<group>"; };
+		1816CEB421630F660003A94E /* CardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTableViewCell.m; sourceTree = "<group>"; };
+		1816CEB621638D220003A94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1816CEB82163B4430003A94E /* ComposedTRX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposedTRX.h; sourceTree = "<group>"; };
+		1816CEB92163B4430003A94E /* ComposedTRX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposedTRX.m; sourceTree = "<group>"; };
+		1816CEBC2163BA810003A94E /* CardSelectionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardSelectionTableViewController.h; sourceTree = "<group>"; };
+		1816CEBD2163BA810003A94E /* CardSelectionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardSelectionTableViewController.m; sourceTree = "<group>"; };
+		184B18CA215E7F31003238ED /* Mercadopago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercadopago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184B18CD215E7F31003238ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184B18CE215E7F31003238ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184B18D0215E7F31003238ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184B18D1215E7F31003238ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184B18D9215E7F32003238ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184B18DB215E7F32003238ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184B18DC215E7F32003238ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184B18E2215E7F32003238ED /* MercadopagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadopagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184B18E6215E7F32003238ED /* MercadopagoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MercadopagoTests.m; sourceTree = "<group>"; };
+		184B18E8215E7F32003238ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184B18F1215E82C6003238ED /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		184B18F2215E82C6003238ED /* Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		184B18F7215F23C7003238ED /* CardIssuer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIssuer.h; sourceTree = "<group>"; };
+		184B18F8215F23C7003238ED /* CardIssuer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardIssuer.m; sourceTree = "<group>"; };
+		184B18FB215F2461003238ED /* PaymentMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethod.h; sourceTree = "<group>"; };
+		184B18FC215F2461003238ED /* PaymentMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethod.m; sourceTree = "<group>"; };
+		184B18FF215F25CA003238ED /* PaymentSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentSetting.h; sourceTree = "<group>"; };
+		184B1900215F25CA003238ED /* PaymentSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentSetting.m; sourceTree = "<group>"; };
+		184B1903215F28E2003238ED /* Bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bin.h; sourceTree = "<group>"; };
+		184B1904215F28E2003238ED /* Bin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bin.m; sourceTree = "<group>"; };
+		184B1907215F28FD003238ED /* SecurityCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityCode.h; sourceTree = "<group>"; };
+		184B1908215F28FD003238ED /* SecurityCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityCode.m; sourceTree = "<group>"; };
+		184B190B215F2975003238ED /* CardNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardNumber.h; sourceTree = "<group>"; };
+		184B190C215F2975003238ED /* CardNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardNumber.m; sourceTree = "<group>"; };
+		184B190F2161A476003238ED /* Installments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Installments.h; sourceTree = "<group>"; };
+		184B19102161A476003238ED /* Installments.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Installments.m; sourceTree = "<group>"; };
+		184B19132161A5BA003238ED /* PayerCost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayerCost.h; sourceTree = "<group>"; };
+		184B19142161A5BA003238ED /* PayerCost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayerCost.m; sourceTree = "<group>"; };
+		184B191721626417003238ED /* HomeViewControllerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewControllerTableViewController.h; sourceTree = "<group>"; };
+		184B191821626417003238ED /* HomeViewControllerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewControllerTableViewController.m; sourceTree = "<group>"; };
+		184B191C216265E1003238ED /* TitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleTableViewCell.h; sourceTree = "<group>"; };
+		184B191D216265E1003238ED /* TitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleTableViewCell.m; sourceTree = "<group>"; };
+		184B192021626EF0003238ED /* PaymentAmountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentAmountTableViewCell.h; sourceTree = "<group>"; };
+		184B192121626EF0003238ED /* PaymentAmountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentAmountTableViewCell.m; sourceTree = "<group>"; };
+		184B19242162B1A4003238ED /* ContinueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContinueTableViewCell.h; sourceTree = "<group>"; };
+		184B19252162B1A4003238ED /* ContinueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContinueTableViewCell.m; sourceTree = "<group>"; };
+		184B1929216307AE003238ED /* SelectionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewController.h; sourceTree = "<group>"; };
+		184B192A216307AE003238ED /* SelectionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionTableViewController.m; sourceTree = "<group>"; };
+		18A70DF82163CD380045600C /* TableViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
+		18A70DF92163CD380045600C /* TableViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
+		18A70DFB2163E0640045600C /* CardIssuerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardIssuerTableViewController.h; sourceTree = "<group>"; };
+		18A70DFC2163E0640045600C /* CardIssuerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardIssuerTableViewController.m; sourceTree = "<group>"; };
+		18A70DFE2163ED370045600C /* RecommendedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendedTableViewController.h; sourceTree = "<group>"; };
+		18A70DFF2163ED370045600C /* RecommendedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendedTableViewController.m; sourceTree = "<group>"; };
+		18A70E012164598C0045600C /* RecommendedHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendedHeaderView.h; sourceTree = "<group>"; };
+		18A70E022164598C0045600C /* RecommendedHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendedHeaderView.m; sourceTree = "<group>"; };
+		18A70E042164C6050045600C /* RecommendedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendedTableViewCell.h; sourceTree = "<group>"; };
+		18A70E052164C6050045600C /* RecommendedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendedTableViewCell.m; sourceTree = "<group>"; };
+		18A70E0A21657BD40045600C /* NSNumber+StringFromNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+StringFromNumber.h"; sourceTree = "<group>"; };
+		18A70E0B21657BD40045600C /* NSNumber+StringFromNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+StringFromNumber.m"; sourceTree = "<group>"; };
+		18A70E0D216695A40045600C /* NSString+NumberFromString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFromString.h"; sourceTree = "<group>"; };
+		18A70E0E216695A40045600C /* NSString+NumberFromString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFromString.m"; sourceTree = "<group>"; };
+		18A70E102166AF890045600C /* UIViewController+AddNavigationLogo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AddNavigationLogo.h"; sourceTree = "<group>"; };
+		18A70E112166AF890045600C /* UIViewController+AddNavigationLogo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AddNavigationLogo.m"; sourceTree = "<group>"; };
+		18A70E132166D11E0045600C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45763729C309D8936E7E5832 /* Pods-Mercadopago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercadopago.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mercadopago/Pods-Mercadopago.debug.xcconfig"; sourceTree = "<group>"; };
+		6D84583AE93BA23DE0BFE94A /* Pods-Mercadopago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercadopago.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mercadopago/Pods-Mercadopago.release.xcconfig"; sourceTree = "<group>"; };
+		9FF9ED02151BE2214ED1EA21 /* Pods-MercadopagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadopagoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercadopagoTests/Pods-MercadopagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B23E287A8E891D4DEF118B34 /* Pods_MercadopagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadopagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50212799B2D59BA355A1029 /* Pods-MercadopagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadopagoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercadopagoTests/Pods-MercadopagoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184B18C7215E7F31003238ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095F5698B4786A0514A36DB /* Pods_Mercadopago.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184B18DF215E7F32003238ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FEA6A1657F505C4C3365E4 /* Pods_MercadopagoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184B18C1215E7F31003238ED = {
+			isa = PBXGroup;
+			children = (
+				18A70E132166D11E0045600C /* README.md */,
+				184B18CC215E7F31003238ED /* Mercadopago */,
+				184B18E5215E7F32003238ED /* MercadopagoTests */,
+				184B18CB215E7F31003238ED /* Products */,
+				25ED4F8BDD555D5FEE9B94C8 /* Pods */,
+				C39D782C139C20A838EF5DBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184B18CB215E7F31003238ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184B18CA215E7F31003238ED /* Mercadopago.app */,
+				184B18E2215E7F32003238ED /* MercadopagoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184B18CC215E7F31003238ED /* Mercadopago */ = {
+			isa = PBXGroup;
+			children = (
+				1816CEB621638D220003A94E /* Assets.xcassets */,
+				184B191B21626430003238ED /* Views */,
+				184B18F6215F232D003238ED /* Models */,
+				184B18F4215E82D2003238ED /* Utils */,
+				184B18F5215E82DB003238ED /* ViewControllers */,
+				184B18D8215E7F32003238ED /* LaunchScreen.storyboard */,
+				184B18DB215E7F32003238ED /* Info.plist */,
+				184B18DC215E7F32003238ED /* main.m */,
+			);
+			path = Mercadopago;
+			sourceTree = "<group>";
+		};
+		184B18E5215E7F32003238ED /* MercadopagoTests */ = {
+			isa = PBXGroup;
+			children = (
+				184B18E6215E7F32003238ED /* MercadopagoTests.m */,
+				184B18E8215E7F32003238ED /* Info.plist */,
+			);
+			path = MercadopagoTests;
+			sourceTree = "<group>";
+		};
+		184B18F4215E82D2003238ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				184B18CD215E7F31003238ED /* AppDelegate.h */,
+				184B18CE215E7F31003238ED /* AppDelegate.m */,
+				184B18F1215E82C6003238ED /* Service.h */,
+				184B18F2215E82C6003238ED /* Service.m */,
+				18A70E0A21657BD40045600C /* NSNumber+StringFromNumber.h */,
+				18A70E0B21657BD40045600C /* NSNumber+StringFromNumber.m */,
+				18A70E0D216695A40045600C /* NSString+NumberFromString.h */,
+				18A70E0E216695A40045600C /* NSString+NumberFromString.m */,
+				18A70E102166AF890045600C /* UIViewController+AddNavigationLogo.h */,
+				18A70E112166AF890045600C /* UIViewController+AddNavigationLogo.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		184B18F5215E82DB003238ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				184B18D0215E7F31003238ED /* ViewController.h */,
+				184B18D1215E7F31003238ED /* ViewController.m */,
+				184B191721626417003238ED /* HomeViewControllerTableViewController.h */,
+				184B191821626417003238ED /* HomeViewControllerTableViewController.m */,
+				184B1929216307AE003238ED /* SelectionTableViewController.h */,
+				184B192A216307AE003238ED /* SelectionTableViewController.m */,
+				1816CEBC2163BA810003A94E /* CardSelectionTableViewController.h */,
+				1816CEBD2163BA810003A94E /* CardSelectionTableViewController.m */,
+				18A70DFB2163E0640045600C /* CardIssuerTableViewController.h */,
+				18A70DFC2163E0640045600C /* CardIssuerTableViewController.m */,
+				18A70DFE2163ED370045600C /* RecommendedTableViewController.h */,
+				18A70DFF2163ED370045600C /* RecommendedTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		184B18F6215F232D003238ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				184B18F7215F23C7003238ED /* CardIssuer.h */,
+				184B18F8215F23C7003238ED /* CardIssuer.m */,
+				184B18FB215F2461003238ED /* PaymentMethod.h */,
+				184B18FC215F2461003238ED /* PaymentMethod.m */,
+				184B18FF215F25CA003238ED /* PaymentSetting.h */,
+				184B1900215F25CA003238ED /* PaymentSetting.m */,
+				184B1903215F28E2003238ED /* Bin.h */,
+				184B1904215F28E2003238ED /* Bin.m */,
+				184B1907215F28FD003238ED /* SecurityCode.h */,
+				184B1908215F28FD003238ED /* SecurityCode.m */,
+				184B190B215F2975003238ED /* CardNumber.h */,
+				184B190C215F2975003238ED /* CardNumber.m */,
+				184B190F2161A476003238ED /* Installments.h */,
+				184B19102161A476003238ED /* Installments.m */,
+				184B19132161A5BA003238ED /* PayerCost.h */,
+				184B19142161A5BA003238ED /* PayerCost.m */,
+				1816CEB82163B4430003A94E /* ComposedTRX.h */,
+				1816CEB92163B4430003A94E /* ComposedTRX.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		184B191B21626430003238ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				184B191C216265E1003238ED /* TitleTableViewCell.h */,
+				184B191D216265E1003238ED /* TitleTableViewCell.m */,
+				184B192021626EF0003238ED /* PaymentAmountTableViewCell.h */,
+				184B192121626EF0003238ED /* PaymentAmountTableViewCell.m */,
+				184B19242162B1A4003238ED /* ContinueTableViewCell.h */,
+				184B19252162B1A4003238ED /* ContinueTableViewCell.m */,
+				1816CEB321630F660003A94E /* CardTableViewCell.h */,
+				1816CEB421630F660003A94E /* CardTableViewCell.m */,
+				18A70DF82163CD380045600C /* TableViewHeaderView.h */,
+				18A70DF92163CD380045600C /* TableViewHeaderView.m */,
+				18A70E012164598C0045600C /* RecommendedHeaderView.h */,
+				18A70E022164598C0045600C /* RecommendedHeaderView.m */,
+				18A70E042164C6050045600C /* RecommendedTableViewCell.h */,
+				18A70E052164C6050045600C /* RecommendedTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25ED4F8BDD555D5FEE9B94C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45763729C309D8936E7E5832 /* Pods-Mercadopago.debug.xcconfig */,
+				6D84583AE93BA23DE0BFE94A /* Pods-Mercadopago.release.xcconfig */,
+				9FF9ED02151BE2214ED1EA21 /* Pods-MercadopagoTests.debug.xcconfig */,
+				B50212799B2D59BA355A1029 /* Pods-MercadopagoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C39D782C139C20A838EF5DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CDF640454BC672EEA1906F /* Pods_Mercadopago.framework */,
+				B23E287A8E891D4DEF118B34 /* Pods_MercadopagoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184B18C9215E7F31003238ED /* Mercadopago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184B18EB215E7F32003238ED /* Build configuration list for PBXNativeTarget "Mercadopago" */;
+			buildPhases = (
+				E42177B1C9BA5AEE17187988 /* [CP] Check Pods Manifest.lock */,
+				184B18C6215E7F31003238ED /* Sources */,
+				184B18C7215E7F31003238ED /* Frameworks */,
+				184B18C8215E7F31003238ED /* Resources */,
+				55FB720755C49E4C8588C3F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mercadopago;
+			productName = Mercadopago;
+			productReference = 184B18CA215E7F31003238ED /* Mercadopago.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184B18E1215E7F32003238ED /* MercadopagoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184B18EE215E7F32003238ED /* Build configuration list for PBXNativeTarget "MercadopagoTests" */;
+			buildPhases = (
+				0670C320A4DAEB1596D4EDFA /* [CP] Check Pods Manifest.lock */,
+				184B18DE215E7F32003238ED /* Sources */,
+				184B18DF215E7F32003238ED /* Frameworks */,
+				184B18E0215E7F32003238ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184B18E4215E7F32003238ED /* PBXTargetDependency */,
+			);
+			name = MercadopagoTests;
+			productName = MercadopagoTests;
+			productReference = 184B18E2215E7F32003238ED /* MercadopagoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184B18C2215E7F31003238ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jorge Mendoza";
+				TargetAttributes = {
+					184B18C9215E7F31003238ED = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					184B18E1215E7F32003238ED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 184B18C9215E7F31003238ED;
+					};
+				};
+			};
+			buildConfigurationList = 184B18C5215E7F31003238ED /* Build configuration list for PBXProject "Mercadopago" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184B18C1215E7F31003238ED;
+			productRefGroup = 184B18CB215E7F31003238ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184B18C9215E7F31003238ED /* Mercadopago */,
+				184B18E1215E7F32003238ED /* MercadopagoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184B18C8215E7F31003238ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816CEB721638D220003A94E /* Assets.xcassets in Resources */,
+				184B18DA215E7F32003238ED /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184B18E0215E7F32003238ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0670C320A4DAEB1596D4EDFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadopagoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55FB720755C49E4C8588C3F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mercadopago/Pods-Mercadopago-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mercadopago/Pods-Mercadopago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42177B1C9BA5AEE17187988 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercadopago-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184B18C6215E7F31003238ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A70DFA2163CD380045600C /* TableViewHeaderView.m in Sources */,
+				18A70E032164598C0045600C /* RecommendedHeaderView.m in Sources */,
+				184B18D2215E7F31003238ED /* ViewController.m in Sources */,
+				184B192221626EF0003238ED /* PaymentAmountTableViewCell.m in Sources */,
+				184B1905215F28E2003238ED /* Bin.m in Sources */,
+				18A70DFD2163E0640045600C /* CardIssuerTableViewController.m in Sources */,
+				1816CEBA2163B4430003A94E /* ComposedTRX.m in Sources */,
+				1816CEB521630F660003A94E /* CardTableViewCell.m in Sources */,
+				184B191921626417003238ED /* HomeViewControllerTableViewController.m in Sources */,
+				184B190D215F2975003238ED /* CardNumber.m in Sources */,
+				18A70E002163ED370045600C /* RecommendedTableViewController.m in Sources */,
+				184B19112161A476003238ED /* Installments.m in Sources */,
+				184B18F3215E82C6003238ED /* Service.m in Sources */,
+				184B18DD215E7F32003238ED /* main.m in Sources */,
+				184B192B216307AE003238ED /* SelectionTableViewController.m in Sources */,
+				184B1901215F25CA003238ED /* PaymentSetting.m in Sources */,
+				1816CEBE2163BA810003A94E /* CardSelectionTableViewController.m in Sources */,
+				18A70E122166AF890045600C /* UIViewController+AddNavigationLogo.m in Sources */,
+				184B19152161A5BA003238ED /* PayerCost.m in Sources */,
+				18A70E062164C6050045600C /* RecommendedTableViewCell.m in Sources */,
+				184B19262162B1A4003238ED /* ContinueTableViewCell.m in Sources */,
+				18A70E0F216695A40045600C /* NSString+NumberFromString.m in Sources */,
+				184B1909215F28FD003238ED /* SecurityCode.m in Sources */,
+				184B18F9215F23C7003238ED /* CardIssuer.m in Sources */,
+				184B18CF215E7F31003238ED /* AppDelegate.m in Sources */,
+				18A70E0C21657BD40045600C /* NSNumber+StringFromNumber.m in Sources */,
+				184B191E216265E1003238ED /* TitleTableViewCell.m in Sources */,
+				184B18FD215F2461003238ED /* PaymentMethod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184B18DE215E7F32003238ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184B18FA215F23C7003238ED /* CardIssuer.m in Sources */,
+				184B191F216265E1003238ED /* TitleTableViewCell.m in Sources */,
+				1816CEBF2163BA810003A94E /* CardSelectionTableViewController.m in Sources */,
+				184B191A21626417003238ED /* HomeViewControllerTableViewController.m in Sources */,
+				184B1906215F28E2003238ED /* Bin.m in Sources */,
+				184B192321626EF0003238ED /* PaymentAmountTableViewCell.m in Sources */,
+				184B190A215F28FD003238ED /* SecurityCode.m in Sources */,
+				184B190E215F2975003238ED /* CardNumber.m in Sources */,
+				184B18E7215E7F32003238ED /* MercadopagoTests.m in Sources */,
+				184B18FE215F2461003238ED /* PaymentMethod.m in Sources */,
+				184B1902215F25CA003238ED /* PaymentSetting.m in Sources */,
+				184B19162161A5BA003238ED /* PayerCost.m in Sources */,
+				184B19122161A476003238ED /* Installments.m in Sources */,
+				184B19272162B1A4003238ED /* ContinueTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184B18E4215E7F32003238ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184B18C9215E7F31003238ED /* Mercadopago */;
+			targetProxy = 184B18E3215E7F32003238ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184B18D8215E7F32003238ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184B18D9215E7F32003238ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184B18E9215E7F32003238ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184B18EA215E7F32003238ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184B18EC215E7F32003238ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45763729C309D8936E7E5832 /* Pods-Mercadopago.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2PMCVCH6;
+				INFOPLIST_FILE = Mercadopago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.Mercadopago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184B18ED215E7F32003238ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D84583AE93BA23DE0BFE94A /* Pods-Mercadopago.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2PMCVCH6;
+				INFOPLIST_FILE = Mercadopago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.Mercadopago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184B18EF215E7F32003238ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF9ED02151BE2214ED1EA21 /* Pods-MercadopagoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2PMCVCH6;
+				INFOPLIST_FILE = MercadopagoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.MercadopagoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercadopago.app/Mercadopago";
+			};
+			name = Debug;
+		};
+		184B18F0215E7F32003238ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50212799B2D59BA355A1029 /* Pods-MercadopagoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G2PMCVCH6;
+				INFOPLIST_FILE = MercadopagoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.MercadopagoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercadopago.app/Mercadopago";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184B18C5215E7F31003238ED /* Build configuration list for PBXProject "Mercadopago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184B18E9215E7F32003238ED /* Debug */,
+				184B18EA215E7F32003238ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184B18EB215E7F32003238ED /* Build configuration list for PBXNativeTarget "Mercadopago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184B18EC215E7F32003238ED /* Debug */,
+				184B18ED215E7F32003238ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184B18EE215E7F32003238ED /* Build configuration list for PBXNativeTarget "MercadopagoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184B18EF215E7F32003238ED /* Debug */,
+				184B18F0215E7F32003238ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184B18C2215E7F31003238ED /* Project object */;
+}

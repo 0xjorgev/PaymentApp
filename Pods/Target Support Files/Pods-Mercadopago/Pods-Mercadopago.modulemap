@@ -1,0 +1,6 @@
+framework module Pods_Mercadopago {
+  umbrella header "Pods-Mercadopago-umbrella.h"
+
+  export *
+  module * { export * }
+}
